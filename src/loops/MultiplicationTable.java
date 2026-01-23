@@ -1,4 +1,4 @@
-package conditionals;
+package loops;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +11,6 @@ public class MultiplicationTable {
 
         int N = Integer.parseInt(br.readLine());
 
-        //for loop to print multiplication table
         for(int num=1;num<=10;num++) {
             int result = N * num;
             System.out.println(N + " x " + num + " = " + result);
