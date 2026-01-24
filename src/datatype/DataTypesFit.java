@@ -8,7 +8,7 @@ public class DataTypesFit {
     public static void main(String[] args) throws IOException{
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(in);
-
+        //solution
         int q = Integer.parseInt(br.readLine());
         for(int i=0;i<q;i++){
             try {
