@@ -2,6 +2,9 @@ package io;
 
 import java.util.Scanner;
 
+//Question: In this challenge, you must read an integer, a double, and a String from stdin, 
+// then print the values according to the instructions in the Output Format section below.
+
 public class StdinAndStdoutII {
     public static void main(String args[]) {
         Scanner sc  = new Scanner(System.in);

@@ -1,25 +1,14 @@
 package io;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
+
+//Question: In this challenge, you must read 3 integers and strings from stdin and then print them to stdout. 
+// Each integer must be printed on a new line.
 
 public class StdinAndStdout {
     public static void  main(String args[]) throws IOException{
         
-        //Reading input from stdin and writing output to stdout using BufferedReader and inputStreamReader
-        InputStreamReader in = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(in);
-
-        int num = Integer.parseInt(br.readLine());
-        String str = br.readLine();
-
-        System.out.println("You entered integer: " + num);
-        System.out.println("You entered string: " + str);
-        br.close();
-
-        //Reading input from stdin and writing output to stdout using Scanner
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
